@@ -1,0 +1,96 @@
+.profile__top{
+    padding: 30px 0px 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    .edit__btn{
+        font-size: 24px;
+        text-transform: uppercase;
+
+        &:hover{
+            color: $green;
+            transition: .2s ease-out;
+        }
+    }
+
+    .profile__sub__btn a{
+        width: 284px;
+        height: 52px;
+        font-size: 24px;
+
+        border-radius: 40px;
+        border: 1px solid $dark;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &:hover{
+            color: $white;
+            transition: .2s ease-out;
+            background: $green;
+            border: none;
+        }
+    }
+}
+
+.profile__bottom{
+
+    .text-1{
+        font-size: 190px;
+        color: $dark;
+        text-transform: uppercase;
+    }
+
+    .text-2{
+        font-size: 190px;
+        color: $dark;
+        text-transform: uppercase;
+        position: relative;
+        bottom: 70px;
+        padding-bottom: 80px;
+    }
+}
+
+.profile__cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding-bottom: 80px;
+
+    .card{
+        width: 390px;
+        height: 426px;
+        border-radius: 40px;
+        border: 1px solid $dark;
+        background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    }
+}
+
+.profile__title-2{
+
+    .profile__favourites{
+        padding-bottom: 40px;
+        font-size: 190px;
+        color: $dark;
+        text-transform: uppercase;
+    }
+
+    .profile__cards-2{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        padding-bottom: 300px;
+    }
+
+    .card{
+        width: 390px;
+        height: 426px;
+        border-radius: 40px;
+        border: 1px solid $dark;
+        background: url(../../images/accomodate/bg.png), lightgray 50% / cover no-repeat;
+    }
+}

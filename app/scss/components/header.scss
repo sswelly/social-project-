@@ -1,0 +1,19 @@
+.header__content{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 130px;
+}
+
+.nav__main__list{
+    display: flex;
+    gap: 30px;
+
+    a{
+        &:hover{
+            color: $green;
+            transition: .2s ease-out;
+        }
+    }
+}
